@@ -8,10 +8,9 @@ MANIFEST_CREATE_TARGETS = $(PLATFORM:=.create-manifest)
 MANIFEST_PUSH_TARGETS = $(PLATFORM:=.push-manifest)
 BUILD_OPT=""
 IMAGE_TAG=v1.1
-IMAGE_PREFIX=fuse-device-plugin
-IMAGE_REGISTRY=docker.io/soolaugust
+IMAGE_PREFIX=runway-fuse-device-plugin
+IMAGE_REGISTRY=927236916793.dkr.ecr.us-east-1.amazonaws.com
 BINARY=fuse-device-plugin
-
 
 .DEFAULT_GOAL := build
 
